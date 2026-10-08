@@ -7,7 +7,6 @@ Welcome to my DSA Daily Practice repository! 🚀
 I created this repository to maintain my daily DSA practice, track my progress, and build strong problem-solving skills for technical interviews and competitive programming.
 
 I will continuously add the problems I solve, along with their solutions and approaches.
-
 ---
 
 🎯 Goals

@@ -1,40 +1,61 @@
-🧠 DSA Daily Practice
+# 🧠 DSA Daily Practice
 
-«Daily Data Structures & Algorithms practice to improve problem-solving, coding skills, and interview preparation.»
+### Daily Data Structures & Algorithms Practice to Improve Problem-Solving, Coding Skills & Interview Preparation 🚀
 
-Welcome to my DSA Daily Practice repository! 🚀
+Welcome to my **DSA Daily Practice** repository!
 
-I created this repository to maintain my daily DSA practice, track my progress, and build strong problem-solving skills for technical interviews and competitive programming.
+This repository is my personal **Data Structures & Algorithms learning journal**, where I regularly solve coding problems, study important DSA concepts, identify problem-solving patterns, and improve my Python programming skills.
 
-I will continuously add the problems I solve, along with their solutions and approaches.
+My goal is simple:
+
+> **Learn → Practice → Understand Patterns → Optimize → Repeat → Improve 🚀**
+
 ---
 
-🎯 Goals
+## 👨‍💻 About This Repository
 
-- 📅 Solve DSA problems every day
-- 🧠 Improve problem-solving and logical thinking
-- 💻 Strengthen Python programming skills
-- 📚 Master important Data Structures and Algorithms
-- 🎯 Prepare for coding interviews
-- 🔥 Maintain consistent GitHub activity
+I created this repository to:
+
+- 📅 Practice DSA consistently
+- 🧠 Improve logical and problem-solving skills
+- 🐍 Strengthen Python programming
+- 📚 Learn important Data Structures & Algorithms
+- 🎯 Prepare for technical interviews
+- 💻 Practice coding problems from different platforms
 - 📈 Track my progress over time
-- 🏆 Gradually solve problems from Easy → Medium → Hard
+- 🔍 Understand common interview patterns
+- 🔥 Build consistency through daily practice
+
+I will continuously add the problems I solve along with their approaches, complexity analysis, and Python solutions.
 
 ---
 
-🛠️ Language Used
+## 🎯 Goals
 
-Currently, I am primarily using:
+- Solve **at least 1 DSA problem every day**
+- Understand the **approach before coding**
+- Start with brute force and improve the solution
+- Learn common DSA patterns
+- Analyze **Time & Space Complexity**
+- Solve problems from **Easy → Medium → Hard**
+- Revisit problems that I previously struggled with
+- Become confident in technical interviews
 
-- 🐍 Python
+---
+
+## 🛠️ Language
+
+Currently, I primarily use:
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
 
 I may add other programming languages in the future.
 
 ---
 
-📚 DSA Roadmap
+# 📚 DSA Roadmap
 
-1️⃣ Programming Basics
+## 1️⃣ Programming Basics
 
 - Variables
 - Data Types
@@ -47,7 +68,7 @@ I may add other programming languages in the future.
 
 ---
 
-2️⃣ Arrays
+## 2️⃣ Arrays
 
 - Array Traversal
 - Searching
@@ -59,10 +80,11 @@ I may add other programming languages in the future.
 - Sliding Window
 - Kadane's Algorithm
 - Subarrays
+- Subarray Problems
 
 ---
 
-3️⃣ Strings
+## 3️⃣ Strings
 
 - String Traversal
 - String Manipulation
@@ -76,7 +98,7 @@ I may add other programming languages in the future.
 
 ---
 
-4️⃣ Hashing
+## 4️⃣ Hashing
 
 - HashMap / Dictionary
 - HashSet / Set
@@ -87,7 +109,7 @@ I may add other programming languages in the future.
 
 ---
 
-5️⃣ Linked Lists
+## 5️⃣ Linked Lists
 
 - Singly Linked List
 - Doubly Linked List
@@ -95,11 +117,11 @@ I may add other programming languages in the future.
 - Reverse Linked List
 - Fast & Slow Pointers
 - Cycle Detection
-- Merge Linked Lists
+- Merge Two Linked Lists
 
 ---
 
-6️⃣ Stack
+## 6️⃣ Stack
 
 - Stack Implementation
 - Valid Parentheses
@@ -109,7 +131,7 @@ I may add other programming languages in the future.
 
 ---
 
-7️⃣ Queue
+## 7️⃣ Queue
 
 - Queue
 - Circular Queue
@@ -119,17 +141,17 @@ I may add other programming languages in the future.
 
 ---
 
-8️⃣ Searching
+## 8️⃣ Searching
 
 - Linear Search
 - Binary Search
-- Search on Answer
 - Lower Bound
 - Upper Bound
+- Search on Answer
 
 ---
 
-9️⃣ Sorting
+## 9️⃣ Sorting
 
 - Bubble Sort
 - Selection Sort
@@ -140,7 +162,7 @@ I may add other programming languages in the future.
 
 ---
 
-🔟 Recursion & Backtracking
+## 🔟 Recursion & Backtracking
 
 - Recursion Basics
 - Recursive Arrays
@@ -152,7 +174,7 @@ I may add other programming languages in the future.
 
 ---
 
-1️⃣1️⃣ Trees
+## 1️⃣1️⃣ Trees
 
 - Binary Tree
 - Binary Search Tree
@@ -167,7 +189,7 @@ I may add other programming languages in the future.
 
 ---
 
-1️⃣2️⃣ Heap
+## 1️⃣2️⃣ Heap
 
 - Min Heap
 - Max Heap
@@ -177,7 +199,7 @@ I may add other programming languages in the future.
 
 ---
 
-1️⃣3️⃣ Graphs
+## 1️⃣3️⃣ Graphs
 
 - Graph Representation
 - BFS
@@ -187,10 +209,11 @@ I may add other programming languages in the future.
 - Shortest Path
 - Dijkstra's Algorithm
 - Topological Sort
+- Union Find / DSU
 
 ---
 
-1️⃣4️⃣ Dynamic Programming
+## 1️⃣4️⃣ Dynamic Programming
 
 - DP Basics
 - Memoization
@@ -203,285 +226,52 @@ I may add other programming languages in the future.
 
 ---
 
-📊 Daily Progress
+# 🧩 Important DSA Patterns
 
-Day| Problems Solved| Main Topic| Difficulty
-Day 1| 1| Arrays| Easy
-Day 2| 1| Strings| Easy
-Day 3| 1| Hashing| Easy
-Day 4| 1| Arrays| Easy
-...| ...| ...| ...
+I will gradually practice the most common patterns used in coding interviews:
 
-«This table will be updated regularly as I continue my DSA journey.»
+- 🔹 Two Pointers
+- 🔹 Sliding Window
+- 🔹 Fast & Slow Pointers
+- 🔹 Prefix Sum
+- 🔹 Hashing
+- 🔹 Binary Search
+- 🔹 Merge Intervals
+- 🔹 Stack
+- 🔹 Monotonic Stack
+- 🔹 BFS
+- 🔹 DFS
+- 🔹 Backtracking
+- 🔹 Greedy
+- 🔹 Dynamic Programming
+- 🔹 Topological Sort
+- 🔹 Union Find
 
 ---
 
-📅 Daily Practice Structure
+# 📅 Daily Practice Method
 
-Each day I try to follow this process:
+For every problem, I try to follow this process:
 
-Understand Problem
-       ↓
-Think About Approach
-       ↓
+```text
+Understand the Problem
+        ↓
+Identify the Pattern
+        ↓
+Think About the Approach
+        ↓
 Write Brute Force Solution
-       ↓
-Optimize Solution
-       ↓
+        ↓
+Optimize the Solution
+        ↓
 Analyze Time Complexity
-       ↓
+        ↓
 Analyze Space Complexity
-       ↓
+        ↓
 Implement in Python
-       ↓
+        ↓
 Test With Examples
-       ↓
+        ↓
+Review Mistakes
+        ↓
 Push to GitHub
-
----
-
-📁 Repository Structure
-
-DSA/
-│
-├── Arrays/
-│   ├── two_sum.py
-│   ├── maximum_subarray.py
-│   └── remove_duplicates.py
-│
-├── Strings/
-│   ├── valid_anagram.py
-│   ├── palindrome.py
-│   └── valid_parentheses.py
-│
-├── Hashing/
-│   ├── frequency_count.py
-│   └── contains_duplicate.py
-│
-├── LinkedList/
-│   ├── reverse_linked_list.py
-│   └── merge_two_lists.py
-│
-├── Stack/
-│   └── next_greater_element.py
-│
-├── Queue/
-│   └── queue_implementation.py
-│
-├── Searching/
-│   └── binary_search.py
-│
-├── Sorting/
-│   ├── bubble_sort.py
-│   ├── merge_sort.py
-│   └── quick_sort.py
-│
-├── Trees/
-│   └── binary_tree.py
-│
-├── Graphs/
-│   └── bfs.py
-│
-├── DynamicProgramming/
-│   └── climbing_stairs.py
-│
-└── README.md
-
----
-
-🧩 Problem-Solving Template
-
-For every problem, I try to understand these points:
-
-Problem
-
-What is the problem asking?
-
-Approach
-
-What is the simplest way to solve it?
-
-Optimization
-
-Can the solution be improved?
-
-Time Complexity
-
-O(?)
-
-Space Complexity
-
-O(?)
-
-Solution
-
-# Python solution
-
----
-
-📈 Progress Tracker
-
-Data Structures
-
-- [ ] Arrays
-- [ ] Strings
-- [ ] Hashing
-- [ ] Linked Lists
-- [ ] Stack
-- [ ] Queue
-- [ ] Trees
-- [ ] Heap
-- [ ] Graphs
-- [ ] Trie
-
-Algorithms
-
-- [ ] Searching
-- [ ] Sorting
-- [ ] Recursion
-- [ ] Backtracking
-- [ ] Greedy
-- [ ] Dynamic Programming
-- [ ] Graph Algorithms
-
----
-
-🏆 Milestones
-
-Milestone| Status
-10 Problems| ⬜
-25 Problems| ⬜
-50 Problems| ⬜
-100 Problems| ⬜
-150 Problems| ⬜
-200 Problems| ⬜
-300 Problems| ⬜
-500 Problems| ⬜
-
----
-
-🔥 Daily Challenge
-
-My target is:
-
-«Solve at least one DSA problem every day.»
-
-Consistency is more important than solving a large number of problems in a single day.
-
-1 Problem / Day
-      ↓
-7 Problems / Week
-      ↓
-30+ Problems / Month
-      ↓
-365+ Problems / Year
-
----
-
-💡 What I Focus On
-
-While solving problems, I focus on:
-
-- Understanding the problem
-- Identifying patterns
-- Writing clean code
-- Improving brute-force solutions
-- Optimizing time complexity
-- Optimizing space complexity
-- Learning from mistakes
-- Revisiting difficult problems
-- Building consistency
-
----
-
-🧠 Important DSA Patterns
-
-I will gradually practice common interview patterns such as:
-
-- Two Pointers
-- Sliding Window
-- Fast & Slow Pointers
-- Prefix Sum
-- Hashing
-- Binary Search
-- Merge Intervals
-- Stack
-- Monotonic Stack
-- BFS
-- DFS
-- Backtracking
-- Greedy
-- Dynamic Programming
-- Topological Sort
-- Union Find
-
----
-
-💻 Platforms
-
-Problems may be solved from different coding platforms, including:
-
-- LeetCode
-- HackerRank
-- GeeksforGeeks
-- CodeChef
-- Codeforces
-- InterviewBit
-- Other coding platforms
-
----
-
-📌 Why This Repository?
-
-This repository is more than just storing code.
-
-It is my DSA learning journal where I can:
-
-- Track what I have learned
-- Review old problems
-- Identify weak areas
-- Improve problem-solving speed
-- Prepare for technical interviews
-- See my progress over time
-
----
-
-🚀 Long-Term Goal
-
-My long-term goal is to become strong in Data Structures & Algorithms and confidently solve coding problems asked in technical interviews.
-
-Learn
-  ↓
-Practice
-  ↓
-Understand Patterns
-  ↓
-Solve
-  ↓
-Optimize
-  ↓
-Repeat
-  ↓
-Improve 🚀
-
----
-
-📅 Started
-
-2026
-
-This repository will be continuously updated as I progress through my DSA journey.
-
----
-
-⭐ Keep Learning. Keep Solving. Keep Improving.
-
-«Consistency beats intensity.»
-
-«One problem every day can create a huge difference over time.»
-
----
-
-👨‍💻 My DSA Journey
-
-Daily Practice → Better Problem Solving → Stronger DSA → Better Interviews → Better Career 🚀

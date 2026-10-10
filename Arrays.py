@@ -16,3 +16,12 @@ def singleNumber(nums):
             return i
 nums=[2,2,1]
 print(singleNumber(nums))
+
+#getConcatenation
+nums=[1,2,1]
+new=[]
+for i in nums:
+    new.append(i)
+for i in nums:
+    new.append(i)
+print(new)

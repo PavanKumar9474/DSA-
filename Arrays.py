@@ -1,4 +1,4 @@
-#plusone
+# Plusone
 def plusOne(digits):
     for i in range(len(digits)-1,-1,-1):
         if digits[i]<9:
@@ -9,7 +9,7 @@ def plusOne(digits):
 print(plusOne([1,2,3]))
 
 
-#singleNumber
+# SingleNumber
 def singleNumber(nums):
     for i in nums:
         if nums.count(i)==1:
@@ -17,7 +17,7 @@ def singleNumber(nums):
 nums=[2,2,1]
 print(singleNumber(nums))
 
-#getConcatenation
+# getConcatenation
 nums=[1,2,1]
 new=[]
 for i in nums:
@@ -27,7 +27,7 @@ for i in nums:
 print(new)
 
 
-#Merge sorted Array
+# Merge sorted Array
 nums1=[1,2,3,0,0,0]
 m=3
 nums2=[2,5,6]

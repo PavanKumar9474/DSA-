@@ -8,7 +8,6 @@ def plusOne(digits):
     return [1]+digits
 print(plusOne([1,2,3]))
 
-
 # SingleNumber
 def singleNumber(nums):
     for i in nums:

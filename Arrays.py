@@ -25,7 +25,6 @@ for i in nums:
     new.append(i)
 print(new)
 
-
 # Merge sorted Array
 nums1=[1,2,3,0,0,0]
 m=3

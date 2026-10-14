@@ -8,7 +8,6 @@ def plusOne(digits):
     return [1]+digits
 print(plusOne([1,2,3]))
 
-
 #Find the Index of the First Occurrence in a String
 haystack="sadbutsad"
 needle="sad"

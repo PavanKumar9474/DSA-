@@ -43,3 +43,13 @@ n=3
 nums1=nums1[:m]+nums2
 nums1.sort()
 print(nums1)
+
+# Remove Element
+nums=[3,2,2,3]
+val=3
+new=[]
+for i in nums:
+    if i!=val:
+        new.append(i)
+print(len(new))
+print(new)

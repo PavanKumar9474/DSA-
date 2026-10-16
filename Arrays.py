@@ -63,3 +63,18 @@ for i in range(len(nums)):
         break
 else:
     print(len(nums))
+
+# Count Number of pairs "()"
+s=input()
+stack=[-1]
+ans=0
+for i,ch in enumerate(s):
+    if ch=='(':
+        stack.append(i)
+    else:
+        stack.pop()
+        if not stack:
+            stack.append(i)
+        else:
+            ans=max(ans,i-stack[-1])
+print(ans)

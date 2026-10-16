@@ -64,7 +64,7 @@ for i in range(len(nums)):
 else:
     print(len(nums))
 
-# Count Number of pairs "()"
+# Count Number of pairs of "()"
 s=input()
 stack=[-1]
 ans=0

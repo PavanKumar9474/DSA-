@@ -80,17 +80,13 @@ for i,ch in enumerate(s):
 print(ans)
 
 def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        d={")":"(","}":"{","]":"["}
-        st=[]
-        for i in s:
-            if i in "({[":
-                st.append(i)
-            else:
-                if not st or st.pop()!=d[i]:
-                    return False
-                    break
-        return len(st)==0
+    d={")":"(","}":"{","]":"["}
+    st=[]
+    for i in s:
+        if i in "({[":
+            st.append(i)
+        else:
+            if not st or st.pop()!=d[i]:
+                return False
+                break
+    return len(st)==0

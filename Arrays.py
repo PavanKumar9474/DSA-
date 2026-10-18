@@ -79,6 +79,7 @@ for i,ch in enumerate(s):
             ans=max(ans,i-stack[-1])
 print(ans)
 
+#for every open "({[" There is an close ")}]"
 def isValid(self, s):
     d={")":"(","}":"{","]":"["}
     st=[]

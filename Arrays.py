@@ -79,7 +79,7 @@ for i,ch in enumerate(s):
             ans=max(ans,i-stack[-1])
 print(ans)
 
-#for every open "({[" There is an close ")}]"
+# For every open "({[" There is an close ")}]"
 def isValid(self, s):
     d={")":"(","}":"{","]":"["}
     st=[]
@@ -91,3 +91,11 @@ def isValid(self, s):
                 return False
                 break
     return len(st)==0
+
+# Missing Number
+def missingNumber(nums):
+    for i in range(len(nums)):
+        if i not in nums:
+            return i
+    else:
+        return len(nums)

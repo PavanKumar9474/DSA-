@@ -99,3 +99,16 @@ def missingNumber(nums):
             return i
     else:
         return len(nums)
+
+# Majority Element
+def majorityElement(nums):
+    d={}
+    n=len(nums)//2
+    for i in nums:
+        if i not in d:
+            d[i]=1
+        else:
+            d[i]+=1
+    for i in d:
+        if d[i]>n:
+            return i

@@ -122,3 +122,18 @@ def areOccurrencesEqual(self,s):
         else:
             d[i]=1
     return len(set(d.values()))==1
+
+
+# Minimum Sum Sub Array
+def minimumSumSubarray(self, nums, l, r):
+    ans = []
+    for i in range(len(nums)):
+        for j in range(i, len(nums)):
+            n = nums[i:j+1]
+            if l <= len(n) <= r:
+                s = sum(n)
+                if s > 0:
+                    ans.append(s)
+    if ans:
+        return min(ans)
+    return -1

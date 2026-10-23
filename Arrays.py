@@ -165,3 +165,18 @@ def minimumSumSubarray(nums, l, r):
 print("13. Minimum Positive Sum Subarray:",
       minimumSumSubarray([3, -2, 1, 4], 2, 3))
 # Output: 1
+
+
+# FizzBuzz
+n = int(input("Enter n: "))
+l = []
+for i in range(1, n + 1):
+    if i % 3 == 0 and i % 5 == 0:
+        l.append("FizzBuzz")
+    elif i % 3 == 0:
+        l.append("Fizz")
+    elif i % 5 == 0:
+        l.append("Buzz")
+    else:
+        l.append(str(i))
+print(l)

@@ -164,7 +164,7 @@ def minimumSumSubarray(nums, l, r):
     return -1
 print("13. Minimum Positive Sum Subarray:",
       minimumSumSubarray([3, -2, 1, 4], 2, 3))
-# Output: 1
+# Output:1
 
 
 # FizzBuzz
@@ -180,3 +180,10 @@ for i in range(1, n + 1):
     else:
         l.append(str(i))
 print(l)
+
+#CheckAlmostEquivalent
+def checkAlmostEquivalent(self,word1,word2):
+    for i in "abcdefghijklmnopqrstuvwxyz":
+        if abs(word1.count(i)-word2.count(i))>3:
+            return False
+    return True

@@ -187,3 +187,15 @@ def checkAlmostEquivalent(self,word1,word2):
         if abs(word1.count(i)-word2.count(i))>3:
             return False
     return True
+
+#ReverseString
+def reverseString(self, s):
+    l = 0
+    r = len(s) - 1
+    while l < r:
+        le = s[l]
+        re = s[r]
+        s[l] = re
+        s[r] = le
+        l += 1
+        r -= 1

@@ -189,7 +189,7 @@ def checkAlmostEquivalent(self,word1,word2):
     return True
 
 #ReverseString
-def reverseString(self, s):
+def reverseString(s):
     l = 0
     r = len(s) - 1
     while l < r:
@@ -199,3 +199,4 @@ def reverseString(self, s):
         s[r] = le
         l += 1
         r -= 1
+print(s)

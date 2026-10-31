@@ -200,3 +200,17 @@ def reverseString(s):
         l += 1
         r -= 1
 print(s)
+
+# Check perfectNumber
+num=28
+s=1
+if num<=1:
+    print(False)
+else:
+    for i in range(2,int(num**0.5)+1):
+        if num%i==0:
+            s+=i
+            s+=num//i
+            if i==num//i:
+                s-=i
+    print(s==num)

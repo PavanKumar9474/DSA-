@@ -214,3 +214,11 @@ else:
             if i==num//i:
                 s-=i
     print(s==num)
+
+#isSubSequence
+def isSubsequence(s, t):
+    j = 0
+    for i in range(len(t)):
+        if j < len(s) and s[j] == t[i]:
+            j += 1
+    return j == len(s)

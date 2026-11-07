@@ -215,6 +215,21 @@ else:
                 s-=i
     print(s==num)
 
+#numDifferentIntegers
+def numDifferentIntegers(self,word):
+    s=""
+    n=[]
+    for i in word:
+        if i.isdigit():
+            s+=i
+        else:
+            if s!="":
+                n.append(str(int(s)))
+                s=""
+    if s!="":
+        n.append(str(int(s)))
+    return len(set(n))
+
 #isSubSequence
 def isSubsequence(s, t):
     j = 0

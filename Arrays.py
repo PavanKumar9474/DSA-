@@ -229,6 +229,15 @@ def numDifferentIntegers(self,word):
     if s!="":
         n.append(str(int(s)))
     return len(set(n))
+    
+# MaxSubArray
+def maxSubArray(self,nums):
+    s=nums[0]
+    m=nums[0]
+    for i in range(1,len(nums)):
+        s=max(nums[i],s+nums[i])
+        m=max(m,s)
+    return m
 
 #isSubSequence
 def isSubsequence(s, t):
